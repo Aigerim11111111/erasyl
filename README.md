@@ -11,53 +11,14 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <!-- Мобильді құрылғыларда бетті дұрыс көрсету үшін -->
  
- <title>Менің алғашқы бетім</title>
- <!-- Браузер қойындысында шығатын атау -->
-</head>
- 
-<body>
- <!-- Беттегі көрінетін барлық мазмұн осы жерге жазылады -->
+
  
  <h1><!DOCTYPE html>
 <html lang="kk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Бегущая строка</title>
-  <style>
-    .marquee-container {
-      width: 100%;              /* Можно задать нужную ширину */
-      overflow: hidden;         /* Скрываем всё, что выходит за пределы */
-      background-color: lightblue; /* Фон можно менять */
-      border: 2px solid #000;
-      box-sizing: border-box;
-      height: 40px;
-      display: flex;
-      align-items: center;
-    }
-
-    .marquee-text {
-      display: inline-block;
-      white-space: nowrap;
-      padding-left: 100%;       /* Начинаем за пределами контейнера справа */
-      font-size: 24px;
-      font-weight: bold;
-      color: #000;
-      animation: marquee 10s linear infinite;
-    }
-
-    @keyframes marquee {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-100%); }
-    }
-  </style>
-</head>
-<body>
-
-<div class="marquee-container">
-  <div class="marquee-text">Бөгенбай батыр — қазақтың ұлы қолбасшысы!</div>
-</div>
-
+ 
 </body>
 </html>
 .</h1>
